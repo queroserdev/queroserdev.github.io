@@ -1,29 +1,25 @@
-title: queroser.dev
-email: contato@queroser.dev
+title:
+email:
 description: >- # this means to ignore newlines until "baseurl:"
-  A responsive sidebar Jekyll theme using the Pure.css framework, 
-  designed for writers and bloggers of all kinds.
-  
-url: "https://queroser.dev"
-twitter_username: queroserdev
-github_username:  queroserdev
-repository: queroserdev/queroserdev.github.io
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository:
+twitter:
+github:
 
 header_image: assets/profile.png
 
 google_analytics:
-comments: true
+comments: false
+disqus:
 
-author: queroserdev
+author:
 author_bio: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum gravida eros.
-  Donec semper, nisi ac dignissim tincidunt, nisl purus commodo nisl, ac tempus quam nisi eleifend orci.
-  Duis ullamcorper magna nisi, sed pretium quam sollicitudin eu. Nam eget metus in nisl elementum maximus ac ut justo. Nulla facilisi.
-  Aenean eu orci venenatis, scelerisque tortor eu, consequat quam. Proin ut velit sed massa bibendum dictum.
 
-author_pic: ""
+author_pic:
 
-paginate: 4
+paginate: 5
 paginate_path: "/:num/"
 
 markdown: kramdown
@@ -46,8 +42,8 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-      author: queroserdev
-      avatar: ""
+      author:
+      avatar: assets/profile-sm.png
   - scope:
       path: ""
       type: notes
